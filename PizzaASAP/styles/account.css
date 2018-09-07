@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+}
+
+.rounded {
+    border-radius: 0.7rem !important;
+}
+
+.container {
+    padding: 10px 10px 10px 10px;
+}
+
+.button-row {
+    margin-top: 5rem !important;
+}
+
+#wrapper {
+    min-height: 100vh;
+    padding-bottom: 75px;
+}
+
+footer {
+    position: absolute;
+    bottom:0;
+}

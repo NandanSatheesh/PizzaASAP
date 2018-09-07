@@ -1,0 +1,46 @@
+.bg_overlay{
+    background-color: rgba(0,0,0,0.5);
+    /*display: none;*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+/*#signUpCard {
+    margin-top: 10%;
+}*/
+
+@media screen only and (max-width: 750px) and (orientation: portrait) {
+    .bg_overlay {
+        display: none;
+    }
+}
+
+.btn {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.fa.fa-check {
+    color: green;
+    display: none;
+}
+
+.container-fluid {
+    padding: 5%;
+}
+
+.form-container {
+    padding: 1% 5% 5% 5%;
+}
+/*per gli utenti con JS disabilitato posso aggiungere la classe "fading" ad ogni elemento che dovrebbe partire con display:none.
+successivamente creo uno script che si occupa di ciclare su tutti gli elementi del documento e aggiungere una classe CSS con display:none.
+in questo modo non rompo la visualizzazione a chi non ha JS*/
+
+.text-container {
+    height: 25%;
+    padding: 0;
+    margin: 0;
+}
